@@ -1,0 +1,21 @@
+{
+  "name": "grpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proto:gen": "./proto-gen.sh",
+    "start": "ts-node server",
+    "client": "ts-node client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@grpc/grpc-js": "^1.5.2",
+    "@grpc/proto-loader": "^0.6.9",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
